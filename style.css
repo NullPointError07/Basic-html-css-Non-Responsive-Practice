@@ -70,10 +70,10 @@ ul li:before {
 }
 .my-plans {
   margin-top: 200px;
+  text-align: center;
 }
 .plans-header {
-  margin-left: 700px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   font-weight: 700;
   font-size: 40px;
   color: #151414;
@@ -86,7 +86,7 @@ ul li:before {
   font-weight: 700;
   font-size: 30px;
   color: #151414;
-  margin-bottom: 16px;
+  margin: 16px;
 }
 .plans-descriptions {
   font-weight: 500;
