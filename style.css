@@ -62,9 +62,35 @@ header {
   margin-bottom: 16px;
 }
 ul {
-    list-style: none;
-  }
-  
-  ul li:before {
-    content: '✓';
-  }
+  list-style: none;
+}
+
+ul li:before {
+  content: "✓";
+}
+.my-plans {
+  margin-top: 200px;
+}
+.plans-header {
+  margin-left: 700px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.plans-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.plans-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-bottom: 16px;
+}
+.plans-descriptions {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+  text-align: center;
+}
