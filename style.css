@@ -6,19 +6,19 @@
 /* header section style */
 header {
   background-image: url(/images/banner/banner3.png);
-  position: absolute;
   width: 1600px;
   height: 808px;
+  margin-bottom: 131px;
 }
 .header-items {
   display: flex;
   flex-direction: column;
-  margin-top: 216px;
   margin-left: 845px;
   margin-right: 230px;
   text-align: right;
 }
 .banner-title {
+  margin-top: 216px;
   font-weight: 700;
   font-size: 65px;
   color: #ffffff;
@@ -39,3 +39,32 @@ header {
   border-radius: 5px;
   padding: 20px 25px;
 }
+
+/* second section css */
+
+.failure-list {
+  margin: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+.failure-header {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.failure-text {
+  margin-left: 87px;
+}
+.failure-p {
+  margin-bottom: 16px;
+}
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+  }
