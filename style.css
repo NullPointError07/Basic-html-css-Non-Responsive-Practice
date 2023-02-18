@@ -111,5 +111,27 @@ ul li:before {
 .positive-title {
   font-weight: 700;
   font-size: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+.footer {
+  background-color: #151414;
+  color: #ffffff;
+  width: 1600px;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text{
+}
+.footer-text > h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 45px;
+}
+.social-icons{
+  display: flex;
+  gap: 12px;
+}
+.footer-items{
+  
 }
