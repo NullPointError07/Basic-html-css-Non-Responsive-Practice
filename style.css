@@ -94,3 +94,22 @@ ul li:before {
   color: #737272;
   text-align: center;
 }
+.positive-mindset {
+  margin: 130px 230px;
+  background-image: url("/images/watch.png"),
+    linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
+  background-blend-mode: overlay;
+  border-radius: 8px;
+  width: 1140px;
+  height: 300px;
+}
+.positive-text {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.positive-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+}
